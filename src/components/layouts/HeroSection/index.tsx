@@ -4,7 +4,7 @@ import { blogHero } from "../../../assets/utils";
 
 const HeroSection: React.FC = () => {
    return (
-      <div data-testid="HeroSection" className="relative h-[80vh] bg-gray-800 text-white">
+      <div className="relative h-[80vh] bg-gray-800 text-white">
          <Image
             src={blogHero}
             fill
